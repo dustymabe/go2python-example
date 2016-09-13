@@ -4,7 +4,7 @@ version of github.com/fatih/color. We will generate a C shared library
 by running:
 
 ```
-$ go build -buildmode=c-shared -o hello .                                                                                                                                       
+$ go build -buildmode=c-shared -o hello.so .
 $ ls
-hello  hello.go  hello.h  README.md  vendor
+hello.so  hello.go  hello.h  README.md  vendor
 ```

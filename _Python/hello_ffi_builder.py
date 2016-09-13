@@ -6,7 +6,7 @@ ffibuilder.set_source("pyhello",
     """ //passed to the real C compiler
         #include "hello.h"
     """,
-    extra_objects=["hello"])
+    extra_objects=["hello.so"])
 
 ffibuilder.cdef("""
     extern void Hello();

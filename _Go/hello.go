@@ -1,12 +1,12 @@
 package main
 
 import "C"
-import "github.com/fatih/color"
+import "fmt"
+import "math"
 
 //export Hello
 func Hello() {
-	c := color.New().Add(color.Underline)
-	c.Println("Hello! I can print text with an underline.")
+	fmt.Printf("Hello! The square root of 4 is: %g\n", math.Sqrt(4))
 }
 
 func main() {

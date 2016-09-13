@@ -15,5 +15,5 @@ compile and run the hello.c file.
 ```
 $ gcc hello.c hello.so
 $ LD_LIBRARY_PATH=$(pwd) ./a.out 
-Hello! I can print text with an underline.
+Hello! The square root of 4 is: 2
 ```

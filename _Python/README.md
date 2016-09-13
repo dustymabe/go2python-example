@@ -32,5 +32,5 @@ shared object and executes the Hello() function originally written in Go.
 
 ```
 $ LD_LIBRARY_PATH=$(pwd) ./hello.py                                                                                                                                         
-Hello! I can print text with an underline.
+Hello! The square root of 4 is: 2
 ```
